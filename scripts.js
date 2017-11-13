@@ -10,6 +10,6 @@ console.log(withButtonClass);
 var numberOfElements = document.getElementsByClassName('button').length;
 console.log(numberOfElements);
 
-for ( var x = 0 ; x < numberOfElements.length ; x++ ) { //czy tutaj też musi być length?
-	console.log(withButtonClass.innerText);
+for ( var x = 0 ; x < numberOfElements ; x++ ) { 
+	console.log(withButtonClass[x].innerText);
 }
